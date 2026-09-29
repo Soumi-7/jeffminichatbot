@@ -25,7 +25,7 @@ recruitment assistant chatbot with LangChain and Google Gemini that:
 6. Implement Function / Tool Calling (`extract_candidate_info`)
 7. Add Conversational Memory
 8. Build the Chatbot (`chatbot_response(message, session_id)`)
-9. Test the Chatbot (3 conversational, 2 extraction, 1 memory test, each checked automatically)
+9. Test the Chatbot (safeguard checks plus live scenarios for career questions, extraction, memory, corrections, invented details and session isolation)
 10. Optional Gradio Interface
 11. Reflection
 
